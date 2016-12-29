@@ -1,0 +1,31 @@
+{
+  "name": "andreas-glaser/google-photos-deleter",
+  "description": "PHP tool to delete all Google Photos / Picasa Web Albums",
+  "keywords": [
+    "php",
+    "google"
+  ],
+  "homepage": "https://github.com/andreas-glaser/google-photos-deleter",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andreas Glaser",
+      "email": "andreas.c.glaser@gmail.com",
+      "homepage": "https://andreas.glaser.me"
+    }
+  ],
+  "require": {
+    "google/apiclient": "@stable",
+    "andreas-glaser/php-helpers": "@stable"
+  },
+  "suggest": {},
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "AndreasGlaser\\GooglePhotosDeleter\\": "src"
+    }
+  }
+}
