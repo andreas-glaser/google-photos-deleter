@@ -3,7 +3,7 @@ A tool I wrote for myself, to cut ties with Google Photos / Picasa Web Albums
 
 ## Dependencies
 * PHP 5.5+
-* [https://getcomposer.org/](Composer)
+* [Composer](https://getcomposer.org/)
 
 ##Installation
 ```shell
@@ -15,7 +15,7 @@ composer install
 Create google API credentials + OAuth Client
 [https://console.developers.google.com/apis/credentials](https://console.developers.google.com/apis/credentials)
 
-Paste your details into /config.ini
+Paste your details into `/config.ini`
 
 ##Usage
 ```shell
