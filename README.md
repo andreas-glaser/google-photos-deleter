@@ -1,11 +1,11 @@
-#Google Photos Deleter
+# Google Photos Deleter
 A tool I wrote for myself, to cut ties with Google Photos / Picasa Web Albums
 
 ## Dependencies
 * PHP 5.5+
 * [Composer](https://getcomposer.org/)
 
-##Installation
+## Installation
 ```shell
 git clone git@github.com:andreas-glaser/google-photos-deleter.git
 cd google-photos-deleter
@@ -17,7 +17,7 @@ Create google API credentials + OAuth Client
 
 Paste your details into `/config.ini`
 
-##Usage
+## Usage
 ```shell
 ./run-server
 ```
